@@ -12,7 +12,7 @@ setup(
     description = 'Tool for checking OpenShift AppliedClusterQuotaResource',
     long_description = long_description,
     long_description_content_type = "text/markdown",
-    url = '<github url where the tool code will remain>',
+    url = 'https://github.com/hseljenes/qwota',
     py_modules = ['qwota'],
     packages = find_packages(),
     install_requires = [requirements],
