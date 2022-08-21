@@ -5,7 +5,7 @@ with open("requirements.txt", "r", encoding="utf-8") as fh:
     requirements = fh.read()
 setup(
     name = 'qwota',
-    version = '0.0.1',
+    version = '0.0.2',
     author = 'Henning Seljenes',
     author_email = 'henning.seljenes@gmail.com',
     license = 'MIT',
@@ -13,7 +13,7 @@ setup(
     long_description = long_description,
     long_description_content_type = "text/markdown",
     url = 'https://github.com/hseljenes/qwota',
-    py_modules = ['qwota'],
+    py_modules = ['qwota_cli'],
     packages = find_packages(),
     install_requires = [requirements],
     python_requires='>=3',
